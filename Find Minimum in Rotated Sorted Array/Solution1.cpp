@@ -11,16 +11,14 @@ public:
         int min1 = 5000;
         while(l <= r ){
             int mid = (l+r) / 2;
-            if(nums[mid] > nums[nums.size()-1]){
+            if(nums[mid] >= nums[nums.size()-1]){
                 l = mid+1;
             }else{
                 r = mid - 1;
-                if(r<0){
-                    return nums[r+1];
-                }
             }
             min1 = min(min1, nums[mid]);
         }
+        
         return min1;
     }
 };

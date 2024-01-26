@@ -112,7 +112,7 @@ int main(){
     // struct Node* head = l1.reverse();
     l1.insertAfter(100, 50);
 
-    l1.insertBefore(400, 10);
+    l1.insertBefore(400, 1  0);
     
     l1.display(l1.head);
 }

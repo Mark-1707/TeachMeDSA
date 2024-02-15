@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Time Complexity: O(n)
+// Time Complexity: O(n lon n)
 // Space Complexity O(n)
 
 class Solution {

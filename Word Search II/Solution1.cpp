@@ -21,7 +21,7 @@ struct Node {
 };
 
 class Solution {
-private:    
+private:
     Node* root;
     void dfs(vector<vector<char>>& board, int row, int col, int m, int n, vector<string>& res, Node* node, string word){
 

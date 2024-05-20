@@ -13,7 +13,7 @@ private:
         if(i >= nums.size()){
             int xo = 0;
             for(int& n: set){
-                xo  n;
+                xo ^ n;
             }
             ans += xo;
             return;

@@ -13,16 +13,12 @@ public:
 
         while(r < s.size()){
             if(s[r] == t[index]){
-                while(r < s.size() && index < t.size() && s[r] == t[index]){
-                    r++;
-                    index++;
-                    int len = t.size() - index;
-                    ans = min(ans, len);
-                }
+                r++;
+                index++;
             }else{
                 r++;
             }
         }
-        return ans;
+        return ans - index;
     }
 };
